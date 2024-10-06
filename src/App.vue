@@ -18,4 +18,17 @@ export default {
   color: #2c3e50;
 
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Ensure #app takes full height and has no padding/margins */
+#app {
+
+  min-height: 100vh; /* Full viewport height */
+}
+
 </style>
